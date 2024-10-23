@@ -6,7 +6,7 @@ public class Fatorial {
             return 1;
         } else {
             // Chamada recursiva:
-            return n * fatorial(n - 1);
+            return n * calcular(n - 1);
         }
     }
 }
