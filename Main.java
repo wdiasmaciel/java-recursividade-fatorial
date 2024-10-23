@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Informe um número: ");
         num = teclado.nextInt();
 
-        fat = fatorial.calcular(num);
+        fat = fatorial.fat(num);
 
         System.out.println("fat(" + num + ") = " + fat);
 
